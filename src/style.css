@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville:ital@1&display=swap");
+
+:root {
+  color-scheme: dark;
+  color: rgb(255, 255, 255);
+  background-color: #000;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: "Baskervville", "Times New Roman", serif;
+  font-style: italic;
+  color: #fff;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#drop-area {
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+#hero {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+}
